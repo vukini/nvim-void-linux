@@ -7,11 +7,7 @@
 
 return {
 	{ "echasnovski/mini.ai", version = "*", opts = {} },
-	{ "echasnovski/mini.align", version = "*", opts = {},
-    config = function() 
-      require('mini.align').setup()
-    end,
-  },
+	{ "echasnovski/mini.align", version = "*", opts = {} },
 	{ "echasnovski/mini.comment", version = "*", opts = {} },
 	{ "echasnovski/mini.move", version = "*", opts = {} },
 	{ "echasnovski/mini.surround", version = "*", opts = {} },
